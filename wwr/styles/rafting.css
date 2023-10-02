@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway&family=Roboto&display=swap');
+:root {
+    --primary-color: #70C3FF;
+    --secondary-color: #F6AA1C;
+    --accent1-color: #23001E;
+    --accent2-color: #53FF45;
+  --heading-font: 'Roboto', serif;
+  --paragraph-font: 'Poppins', serif;
+  --nav-background-color: #881600;
+  --nav-link-color: #23001e;
+  --nav-hover-link-color: #53FF45;
+  --nav-hover-background-color: #002642;
+  --nav-link-decoration: none;
+  }
+
+body {
+font-family: var(--paragraph-font);
+/* max-width: 960px; */
+/* padding: 20px; */
+width: 100%;
+margin: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: var(--heading-font);
+color: var(--primary-color);
+}
+/* header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+} */
+/* p {
+  padding: 25px;
+}
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+nav a {
+display: block;
+color: var(--nav-link-color);
+text-decoration: none;
+padding: 1rem;
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+} */
+
+
+.hero {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+}
+
+article {
+  position: absolute;
+}
+
+article img {
+  float: right;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* 
+.adventure-images {
+ padding-top: 400px;
+} */
+
+footer {
+  margin-top: 350px;
+  border-top: 1px solid #0000;
+  text-align: center;
+}
