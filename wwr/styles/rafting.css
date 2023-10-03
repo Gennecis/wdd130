@@ -20,17 +20,18 @@ font-family: var(--paragraph-font);
 width: 100%;
 margin: 0px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p{
 font-family: var(--heading-font);
 color: var(--primary-color);
 }
-/* header {
-  padding: 20px;
+header {
+  /* padding: 20px; */
   background-color: var(--accent1-color);
-} */
+}
 /* p {
   padding: 25px;
-}
+}  */
+
 nav {
   background-color: var(--nav-background-color);
   font-size: 1.2rem;
@@ -48,23 +49,40 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
-} */
+}
 
+.wwr-navlinks a{
+  text-decoration: none;
+}
 
 .hero {
   position: relative;
 }
 
-h1 {
+h1{
   position: absolute;
+  top: 80px;
+  left: 10px;
+  right: 100px;
+  /* bottom: 200px; */
 }
 
 article {
   position: absolute;
+  top: 40px;
+  right: 0px;
+  bottom: 0px;
+  left: 500px;
+  /* display: flex; */
 }
 
-article img {
+.happy-client-text {
+  text-align: center;
+}
+
+.client-image {
   float: right;
+  /* width: 300px; */
 }
 
 .hero img {
@@ -72,13 +90,9 @@ article img {
   width: 100%;
   height: auto;
 }
-/* 
-.adventure-images {
- padding-top: 400px;
-} */
 
 footer {
-  margin-top: 350px;
+  /* margin-top: 200px; */
   border-top: 1px solid #0000;
   text-align: center;
 }
